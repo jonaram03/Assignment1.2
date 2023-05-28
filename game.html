@@ -1,0 +1,33 @@
+<!--Jonathan Ramos 5/28/2023-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Craps Game</title>
+</head>
+<body>
+  <h1>Welcome to Crappy Craps!</h1>
+  
+  <p> In the crappy version of craps, rolling a 7 or 11 will be a victory, rolling a 2, 3 or 12 will result in a loss, and anything else will result in a reroll. Good Luck!</p>
+  
+  <br>
+  
+  <p> Also there's no gambling which is where the first part of the name comes from as theres no adreniline rush from almost losing your savings (just joking always gamble responsibly or maybe don't gamble)</p>
+  
+  <br>
+  
+  <h2>Hope you weren't expecting to have fun :P</h2>
+
+  <!--the id="message" is placed within the first <p> to allow the phrase "Give it a shot" to be displayed before the button is pressed-->
+  <p id="message">Give it a shot</p>
+  
+  <!-- id is used to identify which variable you would like displayed-->
+  <p id="sum"></p>
+
+  <!--creates a button that activates on click with the words Roll Dice on it, 
+<having the onclick argument signals the button to run the function "rollDice()" which plays the game. -->
+  <button onclick="rollDice()">Roll Dice</button>
+
+  <!--links the javascript file with all the code to the html file, allows the function rollDice() to be stored in a seperate file-->
+  <script src="code.js"></script>
+</body>
+</html>
