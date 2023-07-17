@@ -1,0 +1,30 @@
+body{
+    background-color: rgba(147, 163, 173, 0.568);
+    color: rgb(88, 0, 252);
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+nav{
+    height: 600px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+footer{
+    text-align: center;
+    margin-right: 200px;
+}
+
+#meme{
+    margin-right: 200px;
+}
+
+header{
+    text-align: center;
+}
